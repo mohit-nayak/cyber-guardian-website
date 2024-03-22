@@ -7,7 +7,7 @@ import { EnvelopeIcon, MapPinIcon } from "@heroicons/react/24/outline";
 
 const Footer = () => {
 	return (
-		<footer className="bg-white dark:bg-gray-900">
+		<footer className="bg-gray-900">
 			<div className="container p-6 mx-auto">
 				<div className="lg:flex py-14">
 					<div className="w-full -mx-6 lg:w-2/5">
@@ -30,7 +30,7 @@ const Footer = () => {
 							<div className="flex mt-6 -mx-2">
 								<a
 									href="#"
-									className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400"
+									className="mx-2 text-white transition-colors duration-300"
 									aria-label="Reddit"
 								>
 									<svg
@@ -45,7 +45,7 @@ const Footer = () => {
 
 								<a
 									href="#"
-									className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400"
+									className="mx-2 text-white transition-colors duration-300"
 									aria-label="Facebook"
 								>
 									<svg
@@ -60,7 +60,7 @@ const Footer = () => {
 
 								<a
 									href="#"
-									className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400"
+									className="mx-2 text-white transition-colors duration-300"
 									aria-label="Github"
 								>
 									<svg
@@ -134,7 +134,7 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<hr className="h-px my-6 bg-gray-200 border-none dark:bg-gray-700" />
+				<hr className="h-px my-6 border-none bg-gray-700" />
 
 				<div>
 					<p className="text-center text-gray-200 ">

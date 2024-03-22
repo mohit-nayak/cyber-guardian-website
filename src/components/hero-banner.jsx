@@ -13,7 +13,7 @@ const HeroBanner = () => {
 				className="absolute inset-0 w-full h-full -z-10"
 			/>
 			<div className="absolute inset-0 w-full h-full -z-10 bg-gray-900/30" />
-			<div className="relative isolate px-6 py-20 lg:py-48 lg:px-8">
+			<div className="relative isolate px-6 py-20 lg:py-44 lg:px-8">
 				<div className="mx-auto max-w-2xl py-8">
 					<div className="hidden sm:mb-8 -top-10 sm:flex sm:justify-center">
 						<div className="relative rounded-full px-3 py-1 text-sm leading-6 text-white ring-1 ring-white/50 hover:ring-white/20 transition-all">
